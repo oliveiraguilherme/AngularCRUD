@@ -10,6 +10,7 @@ import { UsersComponent } from './users/users.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CreateUserComponent } from './users/create-user/create-user.component';
 import { UpdateComponent } from './users/update/update.component';
+import { DeleteUserComponent } from './users/delete-user/delete-user.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { UpdateComponent } from './users/update/update.component';
     Pagina02Component,
     UsersComponent,
     CreateUserComponent,
-    UpdateComponent
+    UpdateComponent,
+    DeleteUserComponent
   ],
   imports: [
     BrowserModule,
